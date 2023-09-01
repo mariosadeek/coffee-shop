@@ -1,10 +1,13 @@
 body{  
-background: rgb(249,251,238);
-background: -moz-linear-gradient(top,  rgba(249,251,238,1) 0%, rgba(222,223,210,1) 100%);
-background: -webkit-linear-gradient(top,  rgba(249,251,238,1) 0%,rgba(222,223,210,1) 100%);
-background: linear-gradient(to bottom,  rgba(249,251,238,1) 0%,rgba(222,223,210,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fbee', endColorstr='#dedfd2',GradientType=0 );
+background-image: url('/assets/content.png');
+background-position: bottom right;
 background-repeat: no-repeat;
+background-size: 80%;
+background-color: rgb(249,251,238);
+background-color: -moz-linear-gradient(top,  rgba(249,251,238,1) 0%, rgba(222,223,210,1) 100%);
+background-color: -webkit-linear-gradient(top,  rgba(249,251,238,1) 0%,rgba(222,223,210,1) 100%);
+background-color: linear-gradient(to bottom,  rgba(249,251,238,1) 0%,rgba(222,223,210,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fbee', endColorstr='#dedfd2',GradientType=0 );
 }
 #home img{
     position:absolute;
@@ -44,7 +47,50 @@ background-repeat: no-repeat;
     font-weight: normal;
     opacity: 100%;
     margin-right: 7%;
+    box-shadow: 2px 2px 4px 2px black;
 }
 #navigation a:last-child:hover{
-    opacity: 70%;
+    opacity: 80%;
+}
+#navigation a:last-child:active{
+    box-shadow: 1px 1px 2px 1px black;
+}
+#content{
+    margin: 10% 0px 5% 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#content h1{
+    margin-bottom: 60px;
+    text-transform: capitalize;
+    font-weight:bolder;
+    line-height: 0px;
+    letter-spacing: 2px;
+    word-spacing: 15px;
+    opacity: 80%;
+    font-size: 48px;
+}
+#content p{
+    font-weight: lighter;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 1px;margin-bottom: 50px;
+}
+#content a{
+    margin-top: 600px;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 12px 90px;
+    background-color: #51010a;
+    color: white;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px 2px black;
+}
+#content a:hover{
+    opacity: 80%;
+}
+#content a:active{
+    box-shadow: 1px 1px 2px 1px black;
 }
