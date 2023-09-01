@@ -11,7 +11,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fbee', end
 background-image: url('/assets/content.png');
 background-position: bottom right;
 background-repeat: no-repeat;
-background-size: 80%;
+background-size: 70%;
 background-color: rgb(249,251,238);
 background-color: -moz-linear-gradient(top,  rgba(249,251,238,1) 0%, rgba(222,223,210,1) 100%);
 background-color: -webkit-linear-gradient(top,  rgba(249,251,238,1) 0%,rgba(222,223,210,1) 100%);
@@ -103,4 +103,39 @@ padding-bottom: 10%;
 }
 #content a:active{
     box-shadow: 1px 1px 2px 1px black;
+}
+#footer{
+    width: 100%;
+    padding-bottom: 54px;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    background-image:url(/assets/donut.png), url(/assets/cream.png), url(/assets/cupcake.png);
+    background-repeat: no-repeat;
+    background-size: 4%;
+    background-position: 8% 50%, 39% 50%, 70.5% 50%;
+}  
+#footer dl{
+    margin-top: 70px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    margin-left: 10%;
+}
+#footer dt{
+    color: #9b0d1e;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-left: 10%;
+    margin-bottom: 2.5%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+#footer dd{
+    font-weight: lighter;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
 }
