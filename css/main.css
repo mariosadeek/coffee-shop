@@ -1,4 +1,13 @@
-body{  
+body{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(249,251,238);
+background-color: -moz-linear-gradient(top,  rgba(249,251,238,1) 0%, rgba(222,223,210,1) 100%);
+background-color: -webkit-linear-gradient(top,  rgba(249,251,238,1) 0%,rgba(222,223,210,1) 100%);
+background-color: linear-gradient(to bottom,  rgba(249,251,238,1) 0%,rgba(222,223,210,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fbee', endColorstr='#dedfd2',GradientType=0 );
+}
+#wrapper{  
 background-image: url('/assets/content.png');
 background-position: bottom right;
 background-repeat: no-repeat;
@@ -8,6 +17,7 @@ background-color: -moz-linear-gradient(top,  rgba(249,251,238,1) 0%, rgba(222,22
 background-color: -webkit-linear-gradient(top,  rgba(249,251,238,1) 0%,rgba(222,223,210,1) 100%);
 background-color: linear-gradient(to bottom,  rgba(249,251,238,1) 0%,rgba(222,223,210,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fbee', endColorstr='#dedfd2',GradientType=0 );
+padding-bottom: 10%;
 }
 #home img{
     position:absolute;
